@@ -1,0 +1,86 @@
+LOTE;F1_INICIO;F1_FIN;F1_DIAS;F2_INICIO;F2_FIN;F2_DIAS;TIPO;REFRESCO;PRODUCCION;TIEMPO_TOTAL;TEMPERATURA;LOTE_ORIGEN;COMENTARIO;RESULTADO;FIN
+00K1;13/04/2025;20/04/2025;7;;;;BASE;;;7;23;;Te negro - M1;;OK
+00K102;13/04/2025;20/04/2025;7;20/04/2025;25/04/2025;5;FINAL;;0,75;12;23;00K1;Te negro - M1 - Jenjibre limón;Algo dulce poco gas;OK
+00K2;20/04/2025;30/04/2025;10;;;;BASE;;;10;23;;Te negro - M2;;OK
+00K201;13/04/2025;23/04/2025;10;23/04/2025;26/04/2025;3;FINAL;;0,75;13;23;00K2;Te negro - M1 - Jenjibre limón;Mucho gas externo poco interno y algo dulce;OK
+01K1;23/04/2025;03/05/2025;10;;;;BASE;;;10;23;00K1;Te negro - FM2;Buen grosor nuevo SCOBY. Quizá demasiado dulce;OK
+01K101;23/04/2025;03/05/2025;10;03/05/2025;09/05/2025;6;FINAL;;1;16;23;01K1;Te negro - FM2 - Fresas jengibre limón (fácil);Muy bueno aunque dulce, mucho gas. ;OK
+01K2;20/04/2025;30/04/2025;10;;;;BASE;;;10;23;00K2;Te negro - FFM1+FM1;Más ácida, poco grosor nuevo SCOBY (quizá por el calor, o por tener dos SCOBY);OK
+01K201;20/04/2025;30/04/2025;10;30/04/2025;01/05/2025;1;FINAL;;0,75;11;23;01K2;Te negro - FFM1+FM1 - Arándanos;Ácido, poco gas;OK
+01K202;20/04/2025;30/04/2025;10;30/04/2025;02/05/2025;2;FINAL;;0,75;12;23;01K2;Te negro - FFM1+FM1 - Jenjibre limón (fácil);Ácido, poco gas. Muy bueno;OK
+02C1;30/04/2025;14/05/2025;14;;;;BASE;;0,25;14;23;01K2;Te negro - FM1;Buena acidez. Hija fina pero limpia.;OK
+02C101;30/04/2025;14/05/2025;14;14/05/2025;18/05/2025;4;FINAL;;1;18;23;02C1;Te negro - FM1 - Arándanos;Flojo de gas. Perfecta acidez y dulzor;OK
+03A1;03/05/2025;18/05/2025;15;;;;BASE;;0,25;15;23;01K1;Te negro bio - FFM2;Buena acidez. Hija fina pero limpia. Hija desechada para jerk;OK
+03A101;03/05/2025;18/05/2025;15;18/05/2025;23/05/2025;5;FINAL;;1;20;25;03A1;Te negro bio - FFM2 - Limón natural + Jenjibre seco;;OK
+03B2;03/05/2025;15/05/2025;12;;;;BASE;;0,25;12;23;01K1;Te negro canela - FM2;Muy buena hija, limpia y esponjosa;OK
+03B201;03/05/2025;15/05/2025;12;15/05/2025;21/05/2025;6;FINAL;;1;18;23;03B2;Te negro canela - FM2 - limón jengibre;Muy bien de acidez y dulzor;OK
+03C1;14/05/2025;25/05/2025;11;;;;BASE;;0,25;11;24;02C1;Te negro básico 1h de infusión - FM1;Perfecto sin estridencias. SCOBY débil con extremos finos y centro grueso. Desechada.;OK
+03C101;14/05/2025;25/05/2025;11;25/05/2025;29/05/2025;4;FINAL;;1;15;26;03C1;Te negro básico 1h de infusión - FM1 - Fresas jengibre en polvo y canela en rama;Muy bueno. Bien de acidez y de gusto. La canela se nota.;OK
+04A1;18/05/2025;29/05/2025;11;;;;BASE;;0,25;11;25;03A1;Te verde 75% + te negro bio 25% - FFM2;Un poco demás de ácido y con muy buen SCOBY. Ambos juntos semi-pegados;OK
+04A101;18/05/2025;29/05/2025;11;29/05/2025;31/05/2025;2;FINAL;;1;13;27;04A1;Te verde 75% + te negro bio 25% - FFM2 - Arándanos + (canela y jengigre en polvo);Muy bueno. Acidillo y buena dulzor;OK
+04B1;15/05/2025;27/05/2025;12;;;;BASE;;0,25;12;25;03B2;Te negro básico 1h de infusión - F2FM2 + FM2;Buena acidez, dulzor estándar. Hija fina. Me quedo con FM2 y almaceno la otra;OK
+04B101;15/05/2025;27/05/2025;12;27/05/2025;31/05/2025;4;FINAL;;1;16;26;04B1;Te negro básico 1h de infusión - F2FM2 + FM2 - Arándanos y jenjibre;Un poco dulce y muy picante. Mucho jengibre ;OK
+04C1;25/05/2025;02/06/2025;8;;;;BASE;;0,25;8;28;03C1;Te verde 75% + te negro bio 25% - FM1;Muy buena SCOBY. Bien de acidez. Me quedo con la hija y al hotel la madre;OK
+04C101;25/05/2025;02/06/2025;8;02/06/2025;04/06/2025;2;FINAL;;1;10;28;04C1;Te verde 75% + te negro bio 25% - FM1 - Arándanos, Canela en rama y jengibre fresco ;Un poco ácida pero bien de gas a pesar de no liarla;OK
+05A1;29/05/2025;07/06/2025;9;;;;BASE;;0,15;9;28;04A1;Te negro bio - FFM2+FFFM2;Tapón enorme con aire entre el SCOBY triple flotando sobre el líquido. Acidez y dulzura normales. Me quedo con la abuela y tiro el resto. SCOBY nieta desigual pero limpia.;OK
+05A101;29/05/2025;07/06/2025;9;07/06/2025;10/06/2025;3;FINAL;;1;12;;05A1;Te negro bio - FFM2+FFFM2 - Arándanos, limón y canela en rama;Buena. Un poco ácida ;OK
+05A102;29/05/2025;07/06/2025;9;07/06/2025;11/06/2025;4;FINAL;;0,5;13;;05A1;Te negro bio - FFM2+FFFM2 - Al natural ;Poco gas. No hay diferencia de una sin segunda fermentación ;OK
+05B1;27/05/2025;07/06/2025;11;;;;BASE;;0,1;11;28;04B1;Te negro bio - FM2;SCOBY muy fina y débil. Acidez y dulzura normales. ;OK
+05B101;27/05/2025;07/06/2025;11;07/06/2025;09/06/2025;2;FINAL;;1;13;;05B1;Te negro bio - FM2 - Fresas, canela, jengibre y limón ;Poco gas pero bueno.;OK
+05C1;02/06/2025;11/06/2025;9;;;;BASE;;;9;28;04C1;MENOS AZUCAR Te negro bio - FFM1;Buena. SCOBY flojo desechado;OK
+05C101;02/06/2025;11/06/2025;9;11/06/2025;14/06/2025;3;FINAL;;1;12;29;05C1;MENOS AZUCAR Te negro bio - FFM1 - Arándanos jengibre y canela en polvo;Buena. Estándar;OK
+05C102;02/06/2025;11/06/2025;9;11/06/2025;13/06/2025;2;FINAL;;0,5;11;29;05C1;MENOS AZUCAR Te negro bio - FFM1 - Sola;Buena. Estándar;OK
+06A1;07/06/2025;16/06/2025;9;;;;BASE;;;9;29;05A1;Te negro bio - FFM2;Buena, un poco ácida. SCOBY limpio e integrado con la madre desechado;OK
+06A101;07/06/2025;16/06/2025;9;16/06/2025;20/06/2025;4;FINAL;;1;13;;06A1;Te negro bio - FFM2 - Mermelada de fresa + Arándanos + Jengibre + Canela en polvo;Muy dulce. No vuelvo a mermelada;OK
+06A102;07/06/2025;16/06/2025;9;16/06/2025;19/06/2025;3;FINAL;;0,5;12;;06A1;Te negro bio - FFM2- Solo;;OK
+06B1;07/06/2025;17/06/2025;10;;;;BASE;;;10;29;05B1;Te negro bio - FM2;OK. SCOBY flojo;OK
+06B101;07/06/2025;17/06/2025;10;17/06/2025;20/06/2025;3;FINAL;;1;13;29;06B1;Te negro bio - FM2 -  Mermelada de fresa + Arándanos + Jengibre + Canela en polvo;Muy dulce. No vuelvo a mermelada;OK
+06B102;07/06/2025;17/06/2025;10;17/06/2025;19/06/2025;2;FINAL;;0,5;12;29;06B1;Te negro bio - FM2 - nada;;OK
+06C1;11/06/2025;20/06/2025;9;;;;BASE;;;9;29;05C1;MENOS AZUCAR Te verde 75% + te negro bio 25% - FFM1;OK. SCOBY bueno pero desechado;OK
+06C101;11/06/2025;20/06/2025;9;20/06/2025;24/06/2025;4;FINAL;;0,75;13;29;06C1;MENOS AZUCAR Te verde 75% + te negro bio 25% - FFM1 -Fresas congeladas + Arándanos + Jengibre + Canela en polvo;Boom. Menos tiempo por el calor;OK
+06C102;11/06/2025;20/06/2025;9;20/06/2025;24/06/2025;4;FINAL;;0,75;13;29;06C1;MENOS AZUCAR Te verde 75% + te negro bio 25% - FFM1 -Fresas congeladas + Arándanos + Jengibre + Canela en polvo;Metida en nevera antes de abrir evitando explosión. Muy fuerte pero con mucho gas;OK
+07A1;16/06/2025;24/06/2025;8;;;;BASE;;;8;29;06A1;Te verde 75% + te negro bio 25% - FFM2;Un poco dulce pero ácido. SCOBY incorporado a la madre.;OK
+07A101;16/06/2025;24/06/2025;8;24/06/2025;28/06/2025;4;FINAL;;1;12;31;07A1;Te verde 75% + te negro bio 25% - FFM2 - Fresas congeladas Jengibre y canela en polvo ;;OK
+07A102;16/06/2025;24/06/2025;8;24/06/2025;26/06/2025;2;FINAL;;0,5;10;31;07A1;Te verde 75% + te negro bio 25% - FFM2 - Nada;;OK
+07B1;17/06/2025;26/06/2025;9;;;;BASE;;;9;29;06B1;Te verde 75% + te negro bio 25% - FM2;;OK
+07B101;17/06/2025;26/06/2025;9;26/06/2025;27/06/2025;1;FINAL;;0,5;10;29;06B1;Te verde 75% + te negro bio 25% - FM2 - Solo;Demasiado dulce ;OK
+07B101;17/06/2025;26/06/2025;9;26/06/2025;29/06/2025;3;FINAL;;1;12;29;06B1;Te verde 75% + te negro bio 25% - FM2 - Arándanos, jengibre y canela;;OK
+07C1;20/06/2025;29/06/2025;9;;;;BASE;;;9;29;06C1;Te negro bio - FFM1;Parecía muy ácida al catar pero luego ha resultado algo floja. SCOBY integrado y flojo. Se deja con la madre.;OK
+07C101;20/06/2025;29/06/2025;9;29/06/2025;03/07/2025;4;FINAL;;1;13;29;07C1;Te negro bio - FFM1 . Arándanos y fresas;Muy bueno. ;OK
+07C102;20/06/2025;29/06/2025;9;29/06/2025;02/07/2025;3;FINAL;;0,5;12;29;07C1;Te negro bio - FFM1;;OK
+08A1;24/06/2025;04/07/2025;10;;;;BASE;;;10;28;07A1;Te verde 75% + te negro bio 25% - FFM2+;Muy grandes SCOBYs. Me quedo con original solo ;OK
+08A101;24/06/2025;04/07/2025;10;04/07/2025;08/07/2025;4;FINAL;;1;14;28;07A1;Te verde 75% + te negro bio 25% - FFM2+ - Fresas limón jengibre canela;;OK
+08A102;24/06/2025;04/07/2025;10;04/07/2025;05/07/2025;1;FINAL;;0,5;11;28;07A1;Te verde 75% + te negro bio 25% - FFM2+ - nada;;OK
+08B1;26/06/2025;06/07/2025;10;;;;BASE;;;10;29;07B1;Te negro bio (mucho tiempo)- FM2;MF extraídas: SCOBY muy fino desechado. Dulzor normal;MIRAR
+08B101;26/06/2025;06/07/2025;10;06/07/2025;10/07/2025;4;FINAL;;1;14;29;08B1;Te negro bio (mucho tiempo)- FM2 - Fresas;MF - delicioso;MIRAR
+08B102;26/06/2025;06/07/2025;10;06/07/2025;11/07/2025;5;FINAL;;0,5;15;29;08B1;Te negro bio (mucho tiempo)- FM2 - Arándanos y jengibre;MF;MIRAR
+08C1;29/06/2025;05/07/2025;6;;;;BASE;;;6;29;07C1;Te verde 75% + te negro bio 25% - FFM1+;MF: Eliminado completo. SCOBY incluida;KO
+09A1;04/07/2025;15/07/2025;11;;;;BASE;;;11;29;08A1;Te negro bio - FFM2;SCOBY duplicado aunque muy pegado. eliminado parte para continuar. Usado para refrescar hotel;OK
+09A101;04/07/2025;15/07/2025;11;15/07/2025;16/07/2025;1;FINAL;;1;12;29;09A1;Te negro bio - FFM2 - Fresas y jengibre;Muy bueno. Poco gas;OK
+09B1;06/07/2025;18/07/2025;12;;;;BASE;;;12;30;08B1;Te verde 75% + te negro bio 25% - FM2;Buen SCOBY separado, aunque deshechado. La madre es bastante gruesa;OK
+09B101;06/07/2025;18/07/2025;12;18/07/2025;22/07/2025;4;FINAL;;1;16;30;09B1;Te verde 75% + te negro bio 25% - FM2 - Fresas;;OK
+09B102;06/07/2025;18/07/2025;12;18/07/2025;22/07/2025;4;FINAL;;0,5;16;30;09B1;Te verde 75% + te negro bio 25% - FM2 - Fresas;;OK
+10A1;05/07/2025;15/07/2025;10;;;;BASE;;;10;29;09A1;Te verde 75% + te negro bio 25% - Reinicio M1;SCOBY gordo pero pequeño. Usamos ese y guardo M1;OK
+10A1;15/07/2025;25/07/2025;10;;;;BASE;;;10;28;09A1;Te verde 75% + te negro bio 25% - FFM2;Muy ácida. SCOBY gordo el exterior y nada en el interno. Desechado.;OK
+10A101;15/07/2025;25/07/2025;10;25/07/2025;27/07/2025;2;FINAL;;1;12;28;10A1;Te verde 75% + te negro bio 25% - FFM2 - AZUCAR - Arándanos + jengibre;Muy ácida. SCOBY gordo el exterior y nada en el interno. Desechado.;OK
+10A102;15/07/2025;25/07/2025;10;25/07/2025;26/07/2025;1;FINAL;;0,5;11;28;10A1;Te verde 75% + te negro bio 25% - FFM2 - AZUCAR - fresas+ jengibre;Muy ácida. SCOBY gordo el exterior y nada en el interno. Desechado.;OK
+10B1;18/07/2025;28/07/2025;10;;;;BASE;;;10;28;09B1;Te verde 75% + te negro bio 25% - FM2;;OK
+10B101;18/07/2025;28/07/2025;10;28/07/2025;01/08/2025;4;FINAL;;0,75;14;27;10B1;Te verde 75% + te negro bio 25% - FM2 - Fresas y jengibre;;
+10B102;18/07/2025;28/07/2025;10;28/07/2025;31/07/2025;3;FINAL;;0,75;13;27;10B1;Te verde 75% + te negro bio 25% - FM2 - Fresas y jengibre;Muy bueno;OK
+10C1;05/07/2025;15/07/2025;10;;;;BASE;;;10;29;08C1;Te verde 75% + te negro bio 25% - Reinicio M1;;OK
+10C101;05/07/2025;15/07/2025;10;15/07/2025;17/07/2025;2;FINAL;;1;12;29;10C1;Te verde 75% + te negro bio 25% - Reinicio M1 - Fresas y jengibre;Bueno. Un poco ácido.;OK
+10C102;05/07/2025;15/07/2025;10;15/07/2025;17/07/2025;2;FINAL;;1;12;29;10C1;Te verde 75% + te negro bio 25% - Reinicio M1 - Arándanos y jengibre;Bueno. Un poco ácido.;OK
+11A1;25/07/2025;03/08/2025;9;;;;BASE;;;9;27;10A1;Te negro bio  - FFM2;Bien de acidez pero algo soso. Quizá excesivo tiempo de infusión. SCOBY madre purgada hija fina desechada;OK
+11A101;25/07/2025;03/08/2025;9;03/08/2025;05/08/2025;2;FINAL;;0,75;11;27;11A1;Te negro bio  - FFM2 - Fresas + Jengibre;Un poco ácido pero bien;OK
+11A102;25/07/2025;03/08/2025;9;03/08/2025;05/08/2025;2;FINAL;;0,75;11;27;11A1;Te negro bio  - FFM2 - Fresas + Jengibre;;
+11B1;28/07/2025;06/08/2025;9;;;;BASE;;;9;27;10B1;Te verde 75% + te negro bio 25% - FM2;Un poco dulce. Muy buena SCOBY. Guardo la madre y uso la hija;OK
+11B101;28/07/2025;06/08/2025;9;06/08/2025;09/08/2025;3;FINAL;;0,75;12;;11B1;Te verde 75% + te negro bio 25% - FM2 - Fresas + Jengibre;;OK
+11B102;28/07/2025;06/08/2025;9;06/08/2025;09/08/2025;3;FINAL;;0,75;12;;11B1;Te verde 75% + te negro bio 25% - FM2 - Fresas + Jengibre;;OK
+11C1;15/07/2025;25/07/2025;10;;;;BASE;;0,5;10;28;10A1;Te verde 75% + te negro bio 25% - FM1.2;Muy ácida. SCOBY muy bueno. Desechada madre;OK
+11C101;15/07/2025;25/07/2025;10;25/07/2025;28/07/2025;3;FINAL;;1;13;28;11C1;Te verde 75% + te negro bio 25% - FM1.2 - Arándanos, jengibre y canela;;OK
+12A1;03/08/2025;;8;;;;BASE;;;8;27;11A1;Te negro bio  - FFM2;;
+12B1;06/08/2025;;5;;;;BASE;;;5;;11B1;Te negro bio - FFM2;;
+12C1;25/07/2025;04/08/2025;10;;;;BASE;;;10;27;11C1;Te negro bio - FFM1.2;SCOBY débil pero limpia. Un poco ácido y con gas;OK
+12C101;25/07/2025;04/08/2025;10;04/08/2025;07/08/2025;3;FINAL;;0,75;13;27;12C1;Te negro bio  - FFM1.2 - Fresas + Jengibre;;
+12C102;25/07/2025;04/08/2025;10;04/08/2025;07/08/2025;3;FINAL;;0,75;13;27;12C1;Te negro bio  - FFM1.2 - Fresas + Jengibre;;
+13C1;04/08/2025;;7;;;;BASE;;;7;27;12C1;Te negro bio - FFM1.2;;
