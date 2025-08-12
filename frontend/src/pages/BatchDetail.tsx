@@ -2,13 +2,18 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { api } from '../api';
+import { BatchFormModal } from '../components/BatchFormModal';
 
 export function BatchDetail() {
   const { id } = useParams();
   const [batch, setBatch] = useState<any>(null);
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const isEdit = searchParams.get('edit') === '1';
+//  const isEdit = searchParams.get('edit') === '1';
+  const [editBatch, setEditBatch] = useState<any>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [batches, setBatches] = useState<any[]>([]);
+
 
   useEffect(() => {
     api.get(`/batches/${id}`).then(res => setBatch(res.data));
@@ -16,12 +21,19 @@ export function BatchDetail() {
 
   if (!batch) return <div style={{ margin: '40px auto', maxWidth: 600 }}>Loading...</div>;
 
-  function handleEdit() {
-    navigate(`/batch/${id}?edit=1`);
+
+  function handleEdit(batch: any) {
+    setEditBatch(batch);
+    setModalOpen(true);
   }
+
 
   function handleBack() {
     navigate('/');
+  }
+  
+  function handleSaved(newBatch: any) {
+    api.get('/batches').then(res => setBatches(res.data));
   }
 
   return (
@@ -29,7 +41,7 @@ export function BatchDetail() {
       <div style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 12px #e2e8f0', padding: 32 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h2 style={{ fontWeight: 700, fontSize: '1.5rem', color: '#2d3748' }}>Batch #{batch.id}</h2>
-          <button onClick={handleEdit} style={{ background: '#f6ad55', color: '#fff', border: 'none', borderRadius: 6, padding: '8px 18px', fontWeight: 600, cursor: 'pointer', fontSize: '1rem' }}>Edit</button>
+          <button onClick={() => handleEdit(batch)}  style={{ background: '#f6ad55', color: '#fff', border: 'none', borderRadius: 6, padding: '8px 18px', fontWeight: 600, cursor: 'pointer', fontSize: '1rem' }}>Edit</button>
         </div>
         <div style={{ marginTop: 24, fontSize: '1.1rem', color: '#4a5568', display: 'grid', gap: '8px' }}>
           <div><strong>ID:</strong> {batch.id}</div>
@@ -51,6 +63,7 @@ export function BatchDetail() {
           <button onClick={handleBack} style={{ background: '#3182ce', color: '#fff', border: 'none', borderRadius: 6, padding: '8px 18px', fontWeight: 600, cursor: 'pointer', fontSize: '1rem' }}>← Back to list</button>
         </div>
       </div>
+      <BatchFormModal open={modalOpen} onClose={() => setModalOpen(false)} batch={editBatch} onSaved={handleSaved} />
     </div>
   );
 }
