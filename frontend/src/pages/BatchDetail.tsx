@@ -268,7 +268,6 @@ export function BatchDetail() {
           </div>
         </div>
 
-        text
         <div style={s.section}>
           <div style={s.grid}>
             <Field label="ID">{display.id}</Field>
